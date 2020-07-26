@@ -5,6 +5,8 @@ namespace NNManager_NS{
     class NNManager {
 
     };
+
+    void foo();
 }
 
 #endif //NEURALNETWORKS_NNMANAGER_H
