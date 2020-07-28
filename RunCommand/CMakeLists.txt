@@ -1,14 +1,7 @@
-project(RunCommand)
-cmake_minimum_required(VERSION 3.16)
-set(CMAKE_CXX_STANDARD 20)
-
-file(GLOB SRC
-        "*.h"
-        "*.cpp"
-        )
+include(${SCRIPTS_DIRECTORY}/CMakeScripts.cmake)
 
 set(SUB_PROJECT_NAME RunCommand)
-include_directories(${PROJECT_BASE_DIRECTORY})
+init_sub_project(${SUB_PROJECT_NAME})
 
 set(REFERENCE_PROJECTS_LIST
         NeuralNetworkManager
