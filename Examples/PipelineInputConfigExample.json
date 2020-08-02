@@ -1,0 +1,25 @@
+{
+  "type" : "pipeline",
+  "items" : [
+    {
+      "type" : "esn reservoir",
+      "location" : "/absolute/path/to/file/with/weights.nnf",
+      "parameters" : {
+        "size" : 400,
+        "radius" : 0.9,
+        "leak" : 0.1,
+        "activation function" : "sigmoid",
+        "other": "parameters"
+      }
+    },
+    {
+      "type" : "liner",
+      "location" : "/absolute/path/to/file/with/weights.nnf",
+      "parameters" : {
+        "input size" :400,
+        "output size" : 2,
+        "activation function" : "relu"
+      }
+    }
+  ]
+}
