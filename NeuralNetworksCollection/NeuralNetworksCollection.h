@@ -2,13 +2,16 @@
 // Created by boku on 25.07.2020.
 //
 
-#ifndef NEURALNETWORKS_NEURALNETWORKSCOLLECTION_H
-#define NEURALNETWORKS_NEURALNETWORKSCOLLECTION_H
+#ifndef NEURAL_NETWORKS_NEURAL_NETWORKS_COLLECTION_H
+#define NEURAL_NETWORKS_NEURAL_NETWORKS_COLLECTION_H
 
+namespace nnc_ns {
+		class NeuralNetwork {
 
-class NeuralNetworksCollection {
+		};
 
-};
+		using NeuralNetworkUnPtr = std::unique_ptr<NeuralNetwork>;
+		using NeuralNetworkShPtr = std::shared_ptr<NeuralNetwork>;
+}
 
-
-#endif //NEURALNETWORKS_NEURALNETWORKSCOLLECTION_H
+#endif //NEURAL_NETWORKS_NEURAL_NETWORKS_COLLECTION_H
