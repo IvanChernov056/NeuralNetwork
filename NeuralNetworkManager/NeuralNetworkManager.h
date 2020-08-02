@@ -1,0 +1,12 @@
+#ifndef NEURALNETWORKS_NEURALNETWORKMANAGER_H
+#define NEURALNETWORKS_NEURALNETWORKMANAGER_H
+
+namespace NNManager_NS{
+    class NeuralNetworkManager {
+
+    };
+
+    void foo();
+}
+
+#endif //NEURALNETWORKS_NEURALNETWORKMANAGER_H

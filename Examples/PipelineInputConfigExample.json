@@ -1,0 +1,9 @@
+{
+  "type" : "pipeline",
+  "items" : [
+    {
+      "type" : "esm reservoir",
+      "location" :
+    }
+  ]
+}
